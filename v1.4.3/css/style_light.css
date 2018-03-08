@@ -1,6 +1,7 @@
 /* Lamap App Landing Page Light version Stylesheet
 ====================================================== */
 
+
 /* HTML 5 reset & Bootstrap fixes */
 
 html,
@@ -214,6 +215,7 @@ figure img {
     visibility: visible\9 !important;
 }
 
+
 /* Bootstrap Nav Tab Customize */
 
 .nav-tabs {
@@ -261,6 +263,7 @@ figure img {
     color: #fff;
 }
 
+
 /* Heading Sizes */
 
 h1 {
@@ -281,6 +284,7 @@ h4 {
     font-weight: 600;
     margin-bottom: 20px;
 }
+
 
 /* Button Styles */
 
@@ -331,6 +335,7 @@ h4 {
     transition: all .15s linear;
 }
 
+
 /* Strokes */
 
 .underline {
@@ -353,6 +358,7 @@ h4 {
     border-top: 1px solid #e1e1e1;
 }
 
+
 /* Sections */
 
 section {
@@ -369,7 +375,9 @@ section {
     margin-bottom: 0px;
 }
 
+
 /* Start of the Stylesheet */
+
 
 /* preloader */
 
@@ -396,6 +404,7 @@ section {
     display: table-cell;
     vertical-align: middle;
 }
+
 
 /* Fixed Navbar */
 
@@ -433,14 +442,16 @@ section {
     padding-bottom: 30px;
 }
 
+
 /* Intro Section */
 
 .intro {
     /*background-image: url(../images/introslider/slide1.jpg); */
     background-image: url(../images/see_stars.jpg);
     background-attachment: fixed;
-    -webkit-background-size: cover;
-    background-size: cover;
+    /*-webkit-background-size: cover; */
+    background-size: 100% auto;
+    padding-bottom: 20%;
 }
 
 .intro .intro-section {
@@ -462,7 +473,6 @@ section {
     line-height: 1.3em;
 }
 
-
 .intro .intro-section .btn-custom-border {
     color: #fff;
 }
@@ -483,6 +493,7 @@ a.mouse i {
     position: relative;
     color: #fff;
 }
+
 
 /* Features Section */
 
@@ -709,6 +720,7 @@ a.mouse i {
     background-color: #fff;
 }
 
+
 /* Brief Section */
 
 .brief-content {
@@ -799,7 +811,8 @@ ul.extra-features i {
 /* Video Section */
 
 .video {
-    background-image: url(../images/video_bg.jpg);
+    /*background-image: url(../images/video_bg.jpg);*/
+    background-color: black;
     background-attachment: fixed;
     -webkit-background-size: cover;
     background-size: cover;
@@ -808,6 +821,7 @@ ul.extra-features i {
 .video .brief-content {
     color: #fff;
 }
+
 
 /* Customer Section */
 
@@ -825,6 +839,7 @@ ul.extra-features i {
 .customers .customer-slider .item:hover img {
     opacity: 1;
 }
+
 
 /* Download Section */
 
